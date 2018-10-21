@@ -1,6 +1,6 @@
 # Home Automation with NodeMCU and Alexa using fauxmoESP
 
-This is a library for ESP8266/ESP32-based devices that emulates Philips Hue lights and thus allows you to control them using this protocol, in particular from Alexa-powered devices like the Amazon Echo or the Dot.
+fauxmoESP is a library for ESP8266/ESP32-based devices that emulates Philips Hue lights and thus allows you to control them using this protocol, in particular from Alexa-powered devices like the Amazon Echo or the Dot.
 
 ![Alternate image text](https://raw.githubusercontent.com/MamunHoque/fauxmoESP/master/images/Block_Diagram.jpeg)
 The library can be found on Xose Perez's BitBucket: [fauxmoESP](https://bitbucket.org/xoseperez/fauxmoesp/src/master/)
@@ -23,7 +23,7 @@ In order to run it in your code, you will also need 2 more libraries by Hristo G
 ## Step One:
 ### Download or clone full source code from here: [Source Code](https://github.com/MamunHoque/fauxmoESP/archive/master.zip)
 
-So, Unzip the files and Go to your Arduino IDE and install the 3 above libraries form libraries folder under your Arduino/Library directory or Install by zip option.
+So, Unzip the files and Go to your Arduino IDE and install the 3 above libraries from libraries folder under your Arduino/Library directory or Install by zip option.
 ![Alternate image text](https://raw.githubusercontent.com/MamunHoque/fauxmoESP/master/images/package_install.png)
 
 ## Step Two:
@@ -41,10 +41,11 @@ Select your board and upload to NodeMCU board.
 Let's connect a 4 Channel relay module to control 2 lamps and 2 outlets as shown in above diagram.
 ![Alternate image text](https://raw.githubusercontent.com/MamunHoque/fauxmoESP/master/images/diagram_1.jpg)
 We will create 4 "single smart devices":
-Light1 ==> Relay 1 ==> NodeMCU D5
-Light2 ==> Relay 3 ==> NodeMCU D7
-Outlet1 ==> Relay 2 ==> NodeMCU D6
-Outlet2 ==> Relay 4 ==> NodeMCU D8
+1. Light1 ==> Relay 1 ==> NodeMCU D5
+2. Light2 ==> Relay 3 ==> NodeMCU D7
+3. Outlet1 ==> Relay 2 ==> NodeMCU D6
+4. Outlet2 ==> Relay 4 ==> NodeMCU D8
+
 and 3 groups of combined devices:
 
 All Devices (Light1, Light2, Outlet1 and Outlet2)
