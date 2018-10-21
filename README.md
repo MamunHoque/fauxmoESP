@@ -67,3 +67,9 @@ Bed Room (Light2 and Outlet2)
 
 2) Based on [ALEXA - NODEMCU: WEMO EMULATION MADE SIMPLE
 By mjrovai](https://www.instructables.com/id/Alexa-NodeMCU-WeMo-Emulation-Made-Simple/)
+
+3) Image credit [https://www.instructables.com](https://www.instructables.com/id/Alexa-NodeMCU-WeMo-Emulation-Made-Simple/)
+
+
+Thanks
+[Mamun Hoque](https://fb.com/mamun3137)
